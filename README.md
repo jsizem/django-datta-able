@@ -27,8 +27,9 @@ To get started, you'll need Python installed. Then you can install Django, creat
 
 Here are the core features:
 
+- Python - v 3.12
 - Django - v 5.1.1
-- pipx install Django==5.1.1
+- SQlite3 - v 3.47.0
 
 To get started, you'll need Python installed. Then you can install Django, create a project, define models, set up views and templates, and run your development server.
 
@@ -41,8 +42,8 @@ To get started, you'll need Python installed. Then you can install Django, creat
 > Install modules via `VENV`  
 
 ```bash
-$ virtualenv env
-$ source env/bin/activate
+$ python3.12 -m venv venv
+$ source venv/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
@@ -51,8 +52,8 @@ $ pip3 install -r requirements.txt
 > Set Up Database
 
 ```bash
-$ python manage.py makemigrations
-$ python manage.py migrate
+$ python3.12 manage.py makemigrations
+$ python3.12 manage.py migrate
 ```
 
 <br />
